@@ -7,32 +7,21 @@
 }
 
 .btn-explore {
-    background-color: #5FE2A3;
-    border-radius: 0%;
+    background-color: #5FE2A3 !important;
+    border-radius: 1px !important;
 }
-
 
 /* Logo */
 
 .navbar-brand {
     font-family: 'Poppins', sans-serif !important;
-    font-size: 15px;
+    letter-spacing: .08em;
     font-weight: 600 !important;
-    letter-spacing: 2.7px;
-    color: #ffffff;
-}
-
-.navbar-brand-small {
-    font-family: 'Poppins', sans-serif !important;
-    font-size: 15px;
-    font-weight: 600 !important;
-    letter-spacing: 2.7px;
     color: #ffffff;
 }
 
 
 /* Logo End */
-
 
 /* Text nav sizes for different display sizes */
 
@@ -42,7 +31,7 @@
 @media (min-width: 576px) {
     .navbar-brand {
         display: inline;
-        font-size: 20px !important;
+        font-size: .8rem !important;
     }
     .navbar-brand-small {
         display: none;
@@ -55,7 +44,7 @@
 @media (min-width: 768px) {
     .navbar-brand {
         display: inline;
-        font-size: 25px !important;
+        font-size: 2rem !important;
     }
     .navbar-brand-small {
         display: none;
@@ -68,7 +57,7 @@
 @media (min-width: 992px) {
     .navbar-brand {
         display: inline;
-        font-size: 30px !important;
+        font-size: 2.5rem !important;
     }
     .navbar-brand-small {
         display: none;
@@ -115,6 +104,7 @@
 
 .navbar .navbar-nav .nav-link {
     color: #08082b;
+    font-weight: 600;
     border-radius: .25rem;
     margin: 0 0.25em;
 }
@@ -125,7 +115,7 @@
 }
 
 .navbar .navbar-nav .dropdown-menu {
-    border-color: #434143;
+    border-color: #bce9b8;
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
@@ -136,11 +126,11 @@
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
 .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
     color: #08082b;
-    background-color: #434143;
+    background-color: #bce9b8;
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-divider {
-    border-top-color: #434143;
+    border-top-color: #bce9b8;
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link,
@@ -150,16 +140,16 @@
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
     color: #08082b;
-    background-color: #434143;
+    background-color: #bce9b8;
 }
 
 .navbar .navbar-toggle {
-    border-color: #434143;
+    border-color: #bce9b8;
 }
 
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-    background-color: #434143;
+    background-color: #bce9b8;
 }
 
 .navbar .navbar-toggle .navbar-toggler-icon {
@@ -190,7 +180,7 @@
     }
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: #08082b;
-        background-color: #434143;
+        background-color: #bce9b8;
     }
 }
 
@@ -204,7 +194,7 @@
     }
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: #08082b;
-        background-color: #434143;
+        background-color: #bce9b8;
     }
 }
 
@@ -218,7 +208,7 @@
     }
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: #08082b;
-        background-color: #434143;
+        background-color: #bce9b8;
     }
 }
 
@@ -232,7 +222,7 @@
     }
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: #08082b;
-        background-color: #434143;
+        background-color: #bce9b8;
     }
 }
 
@@ -247,7 +237,7 @@
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #08082b;
-    background-color: #434143;
+    background-color: #bce9b8;
 }
 
 
