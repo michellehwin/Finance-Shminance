@@ -32,9 +32,6 @@
                     <li class="nav-item py-md-2">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item py-md-2">
-                        <a class="nav-link" href="about.html">Our Team</a>
-                    </li>
                     <li class="nav-item dropdown py-md-2">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Resources</a>
@@ -93,50 +90,114 @@
             <div class="col-lg-4">
                 <h1><strong>The Team</strong></h1>
                 <!-- Ideally the buttons would show different parts of the team -->
-                <div class="d-flex flex-column pb-sm-4">
-                    <button class="btn btn-team" onclick="toggle('leadership')">Leadership</button>
-                    <button class="btn btn-team" onclick="toggle('board')">Board</button>
-                    <button class="btn btn-team" onclick="toggle('advisors')">Advisors</button>
-                </div>
+                <ul class="nav nav-tabs flex-column nav-team" role="tablist">
+                    <li role="presentation" class="active"><a href="#leadership" aria-controls="leadership" role="tab"
+                            data-toggle="tab">Leadership</a></li>
+                    <li role="presentation"><a href="#board" aria-controls="board" role="tab"
+                            data-toggle="tab">Board</a></li>
+                    <li role="presentation"><a href="#advisors" aria-controls="advisors" role="tab"
+                            data-toggle="tab">Advisors</a></li>
+                </ul>
             </div>
             <div class="col-lg-8">
-                <div id="leadership" class="d-flex flex-column">
-                    <div class="d-flex w-100 justify-content-between pb-4">
-                        <div class="text-center flex-column">
-                            <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
-                            <h2>Name</h2>
-                            <p class="position">Chairman and CEO</p>
-                        </div>
-                        <div class="text-center flex-column">
-                            <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
-                            <h2>Name</h2>
-                            <p class="position">SVP, Business Operations</p>
-                        </div>
-                        <div class="text-center flex-column">
-                            <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
-                            <h2>Name</h2>
-                            <p class="position">SVP, Resources</p>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="leadership">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex w-100 justify-content-between pb-4">
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Chairman and CEO</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">SVP, Business Operations</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">SVP, Resources</p>
+                                </div>
+                            </div>
+                            <div class="d-flex w-100 justify-content-between">
+                                <div class=" text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Chief Financial Officer</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Chief Marketing Officer</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Chief People Officer</p>
+                                </div>
+        
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex w-100 justify-content-between">
-                        <div class=" text-center flex-column">
-                            <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
-                            <h2>Name</h2>
-                            <p class="position">Chief Financial Officer</p>
+                    <div role="tabpanel" class="tab-pane" id="board">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex w-100 justify-content-between pb-4">
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Chairman and CEO</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Investor</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Chief Talent Officer</p>
+                                </div>
+                            </div>
+                            <div class="d-flex w-100 justify-content-between">
+                                <div class=" text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Co-Founder and CTO</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="text-center flex-column">
-                            <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
-                            <h2>Name</h2>
-                            <p class="position">Chief Marketing Officer</p>
-                        </div>
-                        <div class="text-center flex-column">
-                            <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
-                            <h2>Name</h2>
-                            <p class="position">Chief People Officer</p>
-                        </div>
-
                     </div>
-                </div>
+                    <div role="tabpanel" class="tab-pane" id="advisors">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex w-100 justify-content-between pb-4">
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Education Expert</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Financial Advisor</p>
+                                </div>
+                                <div class="text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">Public Relations</p>
+                                </div>
+                            </div>
+                            <div class="d-flex w-100 justify-content-between">
+                                <div class=" text-center flex-column">
+                                    <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
+                                    <h2>Name</h2>
+                                    <p class="position">National Coordinator</p>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                  </div>
             </div>
         </div>
 
