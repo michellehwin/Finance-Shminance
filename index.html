@@ -19,14 +19,15 @@
     <header>
         <!-- This nav isn't centering on xtra large screens and tbh idek how I got it to work in the first place -->
         <nav class="navbar navbar-light navbar-expand-lg" id="custom-bootstrap-menu">
-            <a class="navbar-brand d-lg-none mr-0" href="#">Finance Shminance</a>
+            <a class="navbar-brand d-lg-none" href="#">Finance Shminance</a>
 
-            <button class="navbar-toggler px-2 ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler px-2 ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -41,26 +42,26 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+                <!-- Brand (I want the logo on top?)-->
+                <div class="text-center w-md-50">
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <!-- <img src="" width="40px" class="d-inline-block align-top" alt="logo">  -->
+                        Finance Shminance
+                    </a>
+                </div>
 
-            <!-- Brand (I want the logo on top?)-->
-            <div class="text-center w-md-50">
-                <a class="navbar-brand d-none d-lg-block" href="index.html">
-                    <!-- <img src="" width="40px" class="d-inline-block align-top" alt="logo">  -->
-                    Finance Shminance
-                </a>
-            </div>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link donate" href="about.html">Donate Now</a>
-                    </li> 
+                    </li>
                 </ul>
+
             </div>
+
+
         </nav>
     </header>
 
@@ -68,7 +69,8 @@
         <div class="row pt-lg-4">
             <div class="col-lg-6 col-sm-12">
                 <h1 class="pt-lg-6 mt-lg-5">Nobody is alone in finance.</h1>
-                <p class="pt-2">Use our resources and gain the knowledge and skills necessary to have a successful future.</p>
+                <p class="pt-2">Use our resources and gain the knowledge and skills necessary to have a successful
+                    future.</p>
                 <!-- Center this in mobile! -->
                 <a class="btn btn-explore font-weight-bold px-lg-3 py-2 mt-3" href="#">Explore</a>
             </div>

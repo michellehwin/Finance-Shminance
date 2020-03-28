@@ -18,8 +18,8 @@
 <body>
     <header>
         <!-- This nav isn't centering on xtra large screens and tbh idek how I got it to work in the first place -->
-        <nav class="py-4 navbar navbar-light navbar-expand-lg" id="custom-bootstrap-menu">
-            <a class="navbar-brand d-lg-none mr-0" href="#">Finance Shminance</a>
+        <nav class="navbar navbar-light navbar-expand-lg" id="custom-bootstrap-menu">
+            <a class="navbar-brand d-lg-none" href="#">Finance Shminance</a>
 
             <button class="navbar-toggler px-2 ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarCollapse" aria-controls="navbarNav" aria-expanded="false"
@@ -27,12 +27,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item py-md-2">
-                        <a class="nav-link" href="#">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item dropdown py-md-2">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Resources</a>
                         <div class="dropdown-menu">
@@ -42,29 +42,33 @@
                         </div>
                     </li>
                 </ul>
+                <!-- Brand (I want the logo on top?)-->
+                <div class="text-center w-md-50">
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <!-- <img src="" width="40px" class="d-inline-block align-top" alt="logo">  -->
+                        Finance Shminance
+                    </a>
+                </div>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link donate" href="about.html">Donate Now</a>
+                    </li>
+                </ul>
+
             </div>
 
-            <!-- Brand (I want the logo on top?)-->
-            <div class="text-center w-md-50">
-                <a class="navbar-brand d-none d-lg-block" href="index.html">
-                    <!-- <img src="" width="40px" class="d-inline-block align-top" alt="logo">  -->
-                    Finance Shminance
-                </a>
-            </div>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
         </nav>
     </header>
     <div class="container pt-3">
         <div class="row">
             <!-- What's best practice for spacing here? -->
-            <div class="pt-5 col-md-6 col-sm-12 ">
-                <h1 class="pt-5"><strong>Finance Shminance Team</strong></h1>
+            <div class="pt-lg-5 col-md-6 col-sm-12 ">
+                <h1 class="pt-lg-5"><strong>Finance Shminance Team</strong></h1>
                 <p class="pt-3">Everyone has to start somewhere. Discover our stories.</p>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -90,7 +94,7 @@
             <div class="col-lg-4">
                 <h1><strong>The Team</strong></h1>
                 <!-- Ideally the buttons would show different parts of the team -->
-                <ul class="nav nav-tabs flex-column nav-team" role="tablist">
+                <ul class="nav nav-tabs flex-lg-column nav-team" role="tablist">
                     <li role="presentation" class="active"><a href="#leadership" aria-controls="leadership" role="tab"
                             data-toggle="tab">Leadership</a></li>
                     <li role="presentation"><a href="#board" aria-controls="board" role="tab"
@@ -103,64 +107,64 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="leadership">
                         <div class="d-flex flex-column">
-                            <div class="d-flex w-100 justify-content-between pb-4">
-                                <div class="text-center flex-column">
+                            <div class="d-flex w-100 justify-content-center pb-4">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Chairman and CEO</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">SVP, Business Operations</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">SVP, Resources</p>
                                 </div>
                             </div>
                             <div class="d-flex w-100 justify-content-between">
-                                <div class=" text-center flex-column">
+                                <div class=" text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Chief Financial Officer</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Chief Marketing Officer</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Chief People Officer</p>
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="board">
                         <div class="d-flex flex-column">
                             <div class="d-flex w-100 justify-content-between pb-4">
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Chairman and CEO</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Investor</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Chief Talent Officer</p>
                                 </div>
                             </div>
                             <div class="d-flex w-100 justify-content-between">
-                                <div class=" text-center flex-column">
+                                <div class=" text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Co-Founder and CTO</p>
@@ -171,33 +175,33 @@
                     <div role="tabpanel" class="tab-pane" id="advisors">
                         <div class="d-flex flex-column">
                             <div class="d-flex w-100 justify-content-between pb-4">
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Education Expert</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Financial Advisor</p>
                                 </div>
-                                <div class="text-center flex-column">
+                                <div class="text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">Public Relations</p>
                                 </div>
                             </div>
                             <div class="d-flex w-100 justify-content-between">
-                                <div class=" text-center flex-column">
+                                <div class=" text-center flex-column m-3">
                                     <img class="img-profile pb-3" src="images/stock-man.jpg" alt="Profile Picture">
                                     <h2>Name</h2>
                                     <p class="position">National Coordinator</p>
                                 </div>
-        
+
                             </div>
                         </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
 

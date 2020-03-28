@@ -11,6 +11,10 @@
     border-radius: 1px !important;
 }
 
+.navbar a{
+    margin-right:0 !important;
+}
+
 .donate {
     background-color: #4CAF50;
     color: white !important;
@@ -19,6 +23,17 @@
 
 .img {
     max-width: 100%;
+}
+
+.dropdown-menu{
+    border-radius: 0 !important;
+    border: 1px solid gray !important; 
+}
+
+.dropdown-item{
+    font-size: .8rem !important;
+    padding-left:10px !important;
+    padding-right:16px !important;
 }
 
 /* not perfectly circular, either fix or use squre images */
