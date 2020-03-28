@@ -18,7 +18,7 @@
 <body>
     <header>
         <!-- This nav isn't centering on xtra large screens and tbh idek how I got it to work in the first place -->
-        <nav class="py-4 navbar navbar-light navbar-expand-lg" id="custom-bootstrap-menu">
+        <nav class="navbar navbar-light navbar-expand-lg" id="custom-bootstrap-menu">
             <a class="navbar-brand d-lg-none mr-0" href="#">Finance Shminance</a>
 
             <button class="navbar-toggler px-2 ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -52,10 +52,14 @@
             </div>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item py-md-2">
+                        <a class="nav-link" href="about.html">Donate Now</a>
+                    </li>
+                    <li class="nav-item py-md-2">
+                        <a class="nav-link" href="about.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
