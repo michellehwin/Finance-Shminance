@@ -74,6 +74,18 @@
     .nav-team a{
         font-size: 1.5rem !important;
     }
+
+    .img-profile{
+        width: 7.5rem; 
+    }
+
+    .tab-content h2{
+        font-size: 1.4rem;
+    }
+
+    .tab-content p{
+        font-size: 1rem;
+    }
  }
 
 .nav-team {
