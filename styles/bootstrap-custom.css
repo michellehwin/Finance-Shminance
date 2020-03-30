@@ -1,14 +1,24 @@
 * {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .spacer {
     margin-top: 60px; 
 }
 
-.btn-explore {
+.btn-green {
     background-color: #4CAF50 !important;
     border-radius: 1px !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+}
+
+h1 strong{
+    font-size: 3.1rem;
+}
+
+p{
+    font-size: 1.25rem;
 }
 
 .navbar a{
@@ -36,12 +46,84 @@
     padding-right:16px !important;
 }
 
+.resources-banner {
+    background-image: url("../images/temp-edu.jpg");
+    width: 100%;
+    height: 500px;
+    background-position-y: top;
+    background-position-x: center;
+}
+
+.home-resources > h1 > strong {
+    font-size: 2.7rem !important;
+}
+
+.home-spacer{
+    padding-top: 10px;
+}
+
+ @media (min-width: 768px) { 
+    .home-spacer{
+        padding-top: 150px;
+    }
+
+    .home-resources{
+        font-size: 3.1rem;
+    } 
+ }
+
+ @media (min-width: 1024px) { 
+    .home-spacer{
+        padding-top: 200px;
+    }
+ }
+
+ footer li, footer p {
+     font-size: .8rem;
+ }
+ 
+ @media (min-width: 768px) { 
+    footer li {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    
+    footer p {
+        font-size: ;
+    }
+ }
+
+footer a:hover {
+    color: black;
+}
+
+ footer a:hover {
+     color: black;
+     text-decoration: none;
+ }
+
+ footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:active{
+    color: black;
+    text-decoration: none;
+}
+
 /* not perfectly circular, either fix or use squre images */
 .img-profile {
     max-width: 100%;
     max-height: 100%;
     width: 5rem; 
     border-radius: 50%;
+}
+
+.img-collage {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
 }
 
 .tab-content{
