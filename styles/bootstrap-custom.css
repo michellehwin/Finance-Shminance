@@ -159,9 +159,15 @@ footer a:active{
  }
 
 .content-summary h1>strong{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color:rgb(51, 51, 51);
 }
+
+@media (min-width: 768px) { 
+    .content-summary h1>strong{
+        font-size: 2rem;
+    }
+ }
 
 .content-summary p, .content p{
     font-size:1rem;
