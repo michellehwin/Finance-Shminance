@@ -178,8 +178,10 @@ footer a:active{
     text-align: center;
 }
 
+
 .content p{
-    text-align: justify;
+    text-align: left;
+    
 }
 
 
