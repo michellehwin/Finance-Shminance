@@ -184,7 +184,10 @@ footer a:active{
     
 }
 
-
+.summary-image{
+    width: 400px;
+    height: auto;
+}
 
 @media (min-width: 576px) { 
     .nav-team li{
