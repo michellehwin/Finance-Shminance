@@ -184,10 +184,17 @@ footer a:active{
     
 }
 
-.summary-image{
-    width: 400px;
+.budget-img{
+    width: 200px;
     height: auto;
 }
+
+@media (min-width: 576px) { 
+    .budget-img{
+        width: 300px;
+        height: auto;
+    }
+ }
 
 @media (min-width: 576px) { 
     .nav-team li{
