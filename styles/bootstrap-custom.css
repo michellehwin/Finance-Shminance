@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .spacer {
@@ -154,7 +154,6 @@ footer a:active{
 @media (min-width: 768px) { 
     .content-header h1 strong{
         font-size: 5rem;
-        letter-spacing: 10px;
     }
  }
 
@@ -254,7 +253,6 @@ footer a:active{
 /* Logo */
 
 .navbar-brand {
-    letter-spacing: .08em;
     font-weight: 600 !important;
     color: #ffffff;
 }
@@ -313,8 +311,7 @@ footer a:active{
     background: transparent;
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Tw Cen MT W01', sans-serif !important; */
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 .navbar .navbar-brand {
